@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 class = "text">Employee Profile</h1>
+
+<div class = "userList">
+    <table id ="employeeInfo" class = "text" style = "width: 25%; border: 3px grey" align="center">
+        <tr>
+            <th>Employee Id</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+    </table>
+</div>
+
+<div id = "updateEmployeeDiv" class = "hideForm">
+    <form class = "text" id = "updateUserForm">
+        Update employee name:<br>
+        <input type = "text" name = "name" id = "name"><br>
+        Update employee age:<br>
+        <input type = "text" name = "age" id = "age"><br>
+        <input type = "button" class = "buttons" value = "Submit" id = "updateEmployeeS">
+    </form>
+</div>
+
+<div id = "buttonDiv">
+    <button id = "addEmployeeB" class="buttons">Add Employee</button>
+</div>
+
+<div id = "addEmployeeDiv" class = "hideForm">
+    <form class = "text" id = "addEmployeeForm">
+        Employee name:<br>
+        <input type = "text" name = "name" id = "name"><br>
+        Employee age:<br>
+        <input type = "text" name = "age" id = "age"><br>
+        <input type = "button" class = "buttons" value = "Submit" id = "addEmployeeS">
+    </form>
+</div>
+</body>
+</html>
